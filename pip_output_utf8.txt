@@ -1,0 +1,779 @@
+﻿Collecting langchain
+  Using cached langchain-0.3.28-py3-none-any.whl (1.0 MB)
+Collecting langchain-core
+  Using cached langchain_core-0.3.83-py3-none-any.whl (458 kB)
+Collecting langchain-openai
+  Using cached langchain_openai-0.3.35-py3-none-any.whl (75 kB)
+Collecting openai
+  Using cached openai-2.29.0-py3-none-any.whl (1.1 MB)
+Collecting langchain-anthropic
+  Using cached langchain_anthropic-0.3.22-py3-none-any.whl (32 kB)
+Collecting langchain-google-genai
+  Using cached langchain_google_genai-2.1.12-py3-none-any.whl (50 kB)
+Collecting google-generativeai
+  Using cached google_generativeai-0.8.6-py3-none-any.whl (155 kB)
+Collecting langchain-huggingface
+  Using cached langchain_huggingface-0.3.1-py3-none-any.whl (27 kB)
+Collecting transformers
+  Using cached transformers-4.57.6-py3-none-any.whl (12.0 MB)
+Collecting huggingface-hub
+  Using cached huggingface_hub-1.7.1-py3-none-any.whl (616 kB)
+Collecting python-dotenv
+  Using cached python_dotenv-1.2.1-py3-none-any.whl (21 kB)
+Collecting numpy
+  Using cached numpy-2.0.2-cp39-cp39-win_amd64.whl (15.9 MB)
+Collecting scikit-learn
+  Using cached scikit_learn-1.6.1-cp39-cp39-win_amd64.whl (11.2 MB)
+Collecting langchain-text-splitters<1.0.0,>=0.3.9
+  Using cached langchain_text_splitters-0.3.11-py3-none-any.whl (33 kB)
+Collecting langsmith<1.0.0,>=0.1.17
+  Using cached langsmith-0.4.37-py3-none-any.whl (396 kB)
+Collecting SQLAlchemy<3.0.0,>=1.4.0
+  Using cached sqlalchemy-2.0.48-cp39-cp39-win_amd64.whl (2.1 MB)
+Collecting pydantic<3.0.0,>=2.7.4
+  Using cached pydantic-2.12.5-py3-none-any.whl (463 kB)
+Collecting async-timeout<5.0.0,>=4.0.0
+  Using cached async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Collecting requests<3.0.0,>=2.0.0
+  Using cached requests-2.32.5-py3-none-any.whl (64 kB)
+Collecting PyYAML<7.0.0,>=5.3.0
+  Using cached pyyaml-6.0.3-cp39-cp39-win_amd64.whl (158 kB)
+Collecting typing-extensions<5.0.0,>=4.7.0
+  Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Collecting tenacity!=8.4.0,<10.0.0,>=8.1.0
+  Using cached tenacity-9.1.2-py3-none-any.whl (28 kB)
+Collecting uuid-utils<1.0,>=0.12.0
+  Using cached uuid_utils-0.14.1-cp39-abi3-win_amd64.whl (187 kB)
+Collecting jsonpatch<2.0.0,>=1.33.0
+  Using cached jsonpatch-1.33-py2.py3-none-any.whl (12 kB)
+Collecting packaging<26.0.0,>=23.2.0
+  Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Collecting tiktoken<1.0.0,>=0.7.0
+  Using cached tiktoken-0.12.0-cp39-cp39-win_amd64.whl (881 kB)
+Collecting distro<2,>=1.7.0
+  Using cached distro-1.9.0-py3-none-any.whl (20 kB)
+Collecting jiter<1,>=0.10.0
+  Using cached jiter-0.13.0-cp39-cp39-win_amd64.whl (206 kB)
+Collecting tqdm>4
+  Using cached tqdm-4.67.3-py3-none-any.whl (78 kB)
+Collecting httpx<1,>=0.23.0
+  Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Collecting anyio<5,>=3.5.0
+  Using cached anyio-4.12.1-py3-none-any.whl (113 kB)
+Collecting sniffio
+  Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+Collecting anthropic<1.0.0,>=0.69.0
+  Using cached anthropic-0.86.0-py3-none-any.whl (469 kB)
+Collecting filetype<2,>=1.2
+  Using cached filetype-1.2.0-py2.py3-none-any.whl (19 kB)
+Collecting google-ai-generativelanguage<1,>=0.7
+  Using cached google_ai_generativelanguage-0.10.0-py3-none-any.whl (1.4 MB)
+Collecting google-api-python-client
+  Using cached google_api_python_client-2.193.0-py3-none-any.whl (14.9 MB)
+Collecting protobuf
+  Using cached protobuf-6.33.6-cp39-cp39-win_amd64.whl (437 kB)
+Collecting google-auth>=2.15.0
+  Using cached google_auth-2.49.1-py3-none-any.whl (240 kB)
+Collecting google-api-core
+  Using cached google_api_core-2.30.0-py3-none-any.whl (173 kB)
+Collecting google-generativeai
+  Using cached google_generativeai-0.8.5-py3-none-any.whl (155 kB)
+  Using cached google_generativeai-0.8.4-py3-none-any.whl (175 kB)
+  Using cached google_generativeai-0.8.3-py3-none-any.whl (160 kB)
+  Using cached google_generativeai-0.8.2-py3-none-any.whl (153 kB)
+  Using cached google_generativeai-0.8.1-py3-none-any.whl (165 kB)
+  Using cached google_generativeai-0.8.0-py3-none-any.whl (163 kB)
+  Using cached google_generativeai-0.7.2-py3-none-any.whl (164 kB)
+  Using cached google_generativeai-0.7.1-py3-none-any.whl (163 kB)
+  Using cached google_generativeai-0.7.0-py3-none-any.whl (163 kB)
+  Using cached google_generativeai-0.6.0-py3-none-any.whl (158 kB)
+  Using cached google_generativeai-0.5.4-py3-none-any.whl (150 kB)
+  Using cached google_generativeai-0.5.3-py3-none-any.whl (150 kB)
+  Using cached google_generativeai-0.5.2-py3-none-any.whl (146 kB)
+  Using cached google_generativeai-0.5.1-py3-none-any.whl (142 kB)
+  Using cached google_generativeai-0.5.0-py3-none-any.whl (142 kB)
+  Using cached google_generativeai-0.4.1-py3-none-any.whl (137 kB)
+  Using cached google_generativeai-0.4.0-py3-none-any.whl (137 kB)
+  Using cached google_generativeai-0.3.2-py3-none-any.whl (146 kB)
+  Using cached google_generativeai-0.3.1-py3-none-any.whl (146 kB)
+  Using cached google_generativeai-0.3.0-py3-none-any.whl (145 kB)
+  Using cached google_generativeai-0.2.2-py3-none-any.whl (133 kB)
+  Using cached google_generativeai-0.2.1-py3-none-any.whl (130 kB)
+  Using cached google_generativeai-0.2.0-py3-none-any.whl (130 kB)
+  Using cached google_generativeai-0.1.0-py3-none-any.whl (122 kB)
+INFO: pip is looking at multiple versions of langchain-google-genai to determine which version is compatible with other requirements. This could take a while.
+Collecting langchain-google-genai
+  Using cached langchain_google_genai-2.1.11-py3-none-any.whl (50 kB)
+  Using cached langchain_google_genai-2.1.10-py3-none-any.whl (49 kB)
+Collecting google-ai-generativelanguage<0.7.0,>=0.6.18
+  Using cached google_ai_generativelanguage-0.6.18-py3-none-any.whl (1.4 MB)
+Collecting langchain-google-genai
+  Using cached langchain_google_genai-2.1.9-py3-none-any.whl (49 kB)
+  Using cached langchain_google_genai-2.1.8-py3-none-any.whl (47 kB)
+  Using cached langchain_google_genai-2.1.7-py3-none-any.whl (47 kB)
+  Using cached langchain_google_genai-2.1.6-py3-none-any.whl (47 kB)
+  Using cached langchain_google_genai-2.1.5-py3-none-any.whl (44 kB)
+INFO: pip is looking at multiple versions of langchain-google-genai to determine which version is compatible with other requirements. This could take a while.
+  Using cached langchain_google_genai-2.1.4-py3-none-any.whl (44 kB)
+  Using cached langchain_google_genai-2.1.3-py3-none-any.whl (43 kB)
+  Using cached langchain_google_genai-2.1.2-py3-none-any.whl (42 kB)
+  Using cached langchain_google_genai-2.1.1-py3-none-any.whl (40 kB)
+  Using cached langchain_google_genai-2.1.0-py3-none-any.whl (40 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Using cached langchain_google_genai-2.0.11-py3-none-any.whl (39 kB)
+  Using cached langchain_google_genai-2.0.10-py3-none-any.whl (41 kB)
+Collecting google-ai-generativelanguage==0.6.15
+  Using cached google_ai_generativelanguage-0.6.15-py3-none-any.whl (1.3 MB)
+Collecting protobuf
+  Using cached protobuf-5.29.6-cp39-cp39-win_amd64.whl (435 kB)
+Collecting proto-plus<2.0.0dev,>=1.22.3
+  Using cached proto_plus-1.27.1-py3-none-any.whl (50 kB)
+Collecting tokenizers>=0.19.1
+  Using cached tokenizers-0.22.2-cp39-abi3-win_amd64.whl (2.7 MB)
+Collecting regex!=2019.12.17
+  Using cached regex-2026.1.15-cp39-cp39-win_amd64.whl (277 kB)
+Collecting filelock
+  Using cached filelock-3.19.1-py3-none-any.whl (15 kB)
+Collecting safetensors>=0.4.3
+  Using cached safetensors-0.7.0-cp38-abi3-win_amd64.whl (341 kB)
+Collecting huggingface-hub
+  Using cached huggingface_hub-0.36.2-py3-none-any.whl (566 kB)
+Collecting fsspec>=2023.5.0
+  Using cached fsspec-2025.10.0-py3-none-any.whl (200 kB)
+Collecting joblib>=1.2.0
+  Using cached joblib-1.5.3-py3-none-any.whl (309 kB)
+Collecting threadpoolctl>=3.1.0
+  Using cached threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Collecting scipy>=1.6.0
+  Using cached scipy-1.13.1-cp39-cp39-win_amd64.whl (46.2 MB)
+Collecting docstring-parser<1,>=0.15
+  Using cached docstring_parser-0.17.0-py3-none-any.whl (36 kB)
+Collecting exceptiongroup>=1.0.2
+  Using cached exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Collecting idna>=2.8
+  Using cached idna-3.11-py3-none-any.whl (71 kB)
+Collecting pyasn1-modules>=0.2.1
+  Using cached pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+Collecting cryptography>=38.0.3
+  Using cached cryptography-46.0.5-cp38-abi3-win_amd64.whl (3.5 MB)
+Collecting certifi
+  Using cached certifi-2026.2.25-py3-none-any.whl (153 kB)
+Collecting httpcore==1.*
+  Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Collecting h11>=0.16
+  Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting jsonpointer>=1.9
+  Using cached jsonpointer-3.0.0-py2.py3-none-any.whl (7.6 kB)
+Collecting requests-toolbelt>=1.0.0
+  Using cached requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Collecting zstandard>=0.23.0
+  Using cached zstandard-0.25.0-cp39-cp39-win_amd64.whl (506 kB)
+Collecting orjson>=3.9.14
+  Using cached orjson-3.11.5-cp39-cp39-win_amd64.whl (133 kB)
+Collecting typing-inspection>=0.4.2
+  Using cached typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Collecting pydantic-core==2.41.5
+  Using cached pydantic_core-2.41.5-cp39-cp39-win_amd64.whl (2.0 MB)
+Collecting annotated-types>=0.6.0
+  Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Collecting charset_normalizer<4,>=2
+  Using cached charset_normalizer-3.4.6-cp39-cp39-win_amd64.whl (154 kB)
+Collecting urllib3<3,>=1.21.1
+  Using cached urllib3-2.6.3-py3-none-any.whl (131 kB)
+Collecting greenlet>=1
+  Using cached greenlet-3.2.5.tar.gz (191 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting colorama
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting googleapis-common-protos<2.0.0,>=1.56.3
+  Using cached googleapis_common_protos-1.73.0-py3-none-any.whl (297 kB)
+Collecting google-auth-httplib2<1.0.0,>=0.2.0
+  Using cached google_auth_httplib2-0.3.0-py3-none-any.whl (9.5 kB)
+Collecting httplib2<1.0.0,>=0.19.0
+  Using cached httplib2-0.31.2-py3-none-any.whl (91 kB)
+Collecting uritemplate<5,>=3.0.1
+  Using cached uritemplate-4.2.0-py3-none-any.whl (11 kB)
+Collecting cffi>=2.0.0
+  Using cached cffi-2.0.0-cp39-cp39-win_amd64.whl (182 kB)
+Collecting grpcio-status<2.0.0,>=1.33.2
+  Using cached grpcio_status-1.78.0-py3-none-any.whl (14 kB)
+Collecting grpcio<2.0.0,>=1.33.2
+  Using cached grpcio-1.78.0-cp39-cp39-win_amd64.whl (4.8 MB)
+Collecting pyparsing<4,>=3.1
+  Using cached pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Collecting pyasn1<0.7.0,>=0.6.1
+  Using cached pyasn1-0.6.3-py3-none-any.whl (83 kB)
+Collecting pycparser
+  Using cached pycparser-2.23-py3-none-any.whl (118 kB)
+Collecting grpcio-status<2.0.0,>=1.33.2
+  Using cached grpcio_status-1.76.0-py3-none-any.whl (14 kB)
+  Using cached grpcio_status-1.75.1-py3-none-any.whl (14 kB)
+  Using cached grpcio_status-1.75.0-py3-none-any.whl (14 kB)
+  Using cached grpcio_status-1.74.0-py3-none-any.whl (14 kB)
+  Using cached grpcio_status-1.73.1-py3-none-any.whl (14 kB)
+  Using cached grpcio_status-1.73.0-py3-none-any.whl (14 kB)
+  Using cached grpcio_status-1.72.2-py3-none-any.whl (14 kB)
+  Using cached grpcio_status-1.72.1-py3-none-any.whl (14 kB)
+  Using cached grpcio_status-1.71.2-py3-none-any.whl (14 kB)
+Building wheels for collected packages: greenlet
+  Building wheel for greenlet (pyproject.toml): started
+  Building wheel for greenlet (pyproject.toml): finished with status 'error'
+pip :   error: subproc
+ess-exited-with-error
+At line:1 char:1
++ pip install -r 
+"requirements.txt" 
+--progress-bar off > 
+pip_output.txt ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (  error: s   
+ ubprocess-exited-    
+with-error:String    
+) [], RemoteExcep    
+tion
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+  
+  Building wheel for 
+greenlet 
+(pyproject.toml) did 
+not run successfully.
+  exit code: 1
+  
+  [112 lines of 
+output]
+  running bdist_wheel
+  running build
+  running build_py
+  creating build\lib.w
+in-amd64-cpython-39\gr
+eenlet
+  copying src\greenlet
+\__init__.py -> build\
+lib.win-amd64-cpython-
+39\greenlet
+  creating build\lib.w
+in-amd64-cpython-39\gr
+eenlet\platform
+  copying src\greenlet
+\platform\__init__.py 
+-> build\lib.win-amd64
+-cpython-39\greenlet\p
+latform
+  creating build\lib.w
+in-amd64-cpython-39\gr
+eenlet\tests
+  copying src\greenlet
+\tests\fail_clearing_r
+un_switches.py -> buil
+d\lib.win-amd64-cpytho
+n-39\greenlet\tests
+  copying src\greenlet
+\tests\fail_cpp_except
+ion.py -> build\lib.wi
+n-amd64-cpython-39\gre
+enlet\tests
+  copying src\greenlet
+\tests\fail_initialstu
+b_already_started.py 
+-> build\lib.win-amd64
+-cpython-39\greenlet\t
+ests
+  copying src\greenlet
+\tests\fail_slp_switch
+.py -> build\lib.win-a
+md64-cpython-39\greenl
+et\tests
+  copying src\greenlet
+\tests\fail_switch_thr
+ee_greenlets.py -> bui
+ld\lib.win-amd64-cpyth
+on-39\greenlet\tests
+  copying src\greenlet
+\tests\fail_switch_thr
+ee_greenlets2.py -> bu
+ild\lib.win-amd64-cpyt
+hon-39\greenlet\tests
+  copying src\greenlet
+\tests\fail_switch_two
+_greenlets.py -> build
+\lib.win-amd64-cpython
+-39\greenlet\tests
+  copying src\greenlet
+\tests\leakcheck.py 
+-> build\lib.win-amd64
+-cpython-39\greenlet\t
+ests
+  copying src\greenlet
+\tests\test_contextvar
+s.py -> build\lib.win-
+amd64-cpython-39\green
+let\tests
+  copying src\greenlet
+\tests\test_cpp.py -> 
+build\lib.win-amd64-cp
+ython-39\greenlet\test
+s
+  copying src\greenlet
+\tests\test_extension_
+interface.py -> build\
+lib.win-amd64-cpython-
+39\greenlet\tests
+  copying src\greenlet
+\tests\test_gc.py -> b
+uild\lib.win-amd64-cpy
+thon-39\greenlet\tests
+  copying src\greenlet
+\tests\test_generator.
+py -> build\lib.win-am
+d64-cpython-39\greenle
+t\tests
+  copying src\greenlet
+\tests\test_generator_
+nested.py -> build\lib
+.win-amd64-cpython-39\
+greenlet\tests
+  copying src\greenlet
+\tests\test_greenlet.p
+y -> build\lib.win-amd
+64-cpython-39\greenlet
+\tests
+  copying src\greenlet
+\tests\test_greenlet_t
+rash.py -> build\lib.w
+in-amd64-cpython-39\gr
+eenlet\tests
+  copying src\greenlet
+\tests\test_interprete
+r_shutdown.py -> build
+\lib.win-amd64-cpython
+-39\greenlet\tests
+  copying src\greenlet
+\tests\test_leaks.py 
+-> build\lib.win-amd64
+-cpython-39\greenlet\t
+ests
+  copying src\greenlet
+\tests\test_stack_save
+d.py -> build\lib.win-
+amd64-cpython-39\green
+let\tests
+  copying src\greenlet
+\tests\test_throw.py 
+-> build\lib.win-amd64
+-cpython-39\greenlet\t
+ests
+  copying src\greenlet
+\tests\test_tracing.py
+ -> build\lib.win-amd6
+4-cpython-39\greenlet\
+tests
+  copying src\greenlet
+\tests\test_version.py
+ -> build\lib.win-amd6
+4-cpython-39\greenlet\
+tests
+  copying src\greenlet
+\tests\test_weakref.py
+ -> build\lib.win-amd6
+4-cpython-39\greenlet\
+tests
+  copying src\greenlet
+\tests\__init__.py -> 
+build\lib.win-amd64-cp
+ython-39\greenlet\test
+s
+  running egg_info
+  writing src\greenlet
+.egg-info\PKG-INFO
+  writing 
+dependency_links to sr
+c\greenlet.egg-info\de
+pendency_links.txt
+  writing 
+requirements to src\gr
+eenlet.egg-info\requir
+es.txt
+  writing top-level 
+names to src\greenlet.
+egg-info\top_level.txt
+  reading manifest 
+file 'src\greenlet.egg
+-info\SOURCES.txt'
+  reading manifest 
+template 'MANIFEST.in'
+  warning: no 
+previously-included 
+files found matching 
+'benchmarks\*.json'
+  no 
+previously-included 
+directories found 
+matching 'docs\_build'
+  warning: no files 
+found matching '*.py' 
+under directory 
+'appveyor'
+  warning: no 
+previously-included 
+files matching 
+'*.pyc' found 
+anywhere in 
+distribution
+  warning: no 
+previously-included 
+files matching 
+'*.pyd' found 
+anywhere in 
+distribution
+  warning: no 
+previously-included 
+files matching '*.so' 
+found anywhere in 
+distribution
+  warning: no 
+previously-included 
+files matching 
+'.coverage' found 
+anywhere in 
+distribution
+  adding license file 
+'LICENSE'
+  adding license file 
+'LICENSE.PSF'
+  writing manifest 
+file 'src\greenlet.egg
+-info\SOURCES.txt'
+  copying src\greenlet
+\CObjects.cpp -> build
+\lib.win-amd64-cpython
+-39\greenlet
+  copying src\greenlet
+\PyGreenlet.cpp -> bui
+ld\lib.win-amd64-cpyth
+on-39\greenlet
+  copying src\greenlet
+\PyGreenlet.hpp -> bui
+ld\lib.win-amd64-cpyth
+on-39\greenlet
+  copying src\greenlet
+\PyGreenletUnswitchabl
+e.cpp -> build\lib.win
+-amd64-cpython-39\gree
+nlet
+  copying src\greenlet
+\PyModule.cpp -> build
+\lib.win-amd64-cpython
+-39\greenlet
+  copying src\greenlet
+\TBrokenGreenlet.cpp 
+-> build\lib.win-amd64
+-cpython-39\greenlet
+  copying src\greenlet
+\TExceptionState.cpp 
+-> build\lib.win-amd64
+-cpython-39\greenlet
+  copying src\greenlet
+\TGreenlet.cpp -> buil
+d\lib.win-amd64-cpytho
+n-39\greenlet
+  copying src\greenlet
+\TGreenlet.hpp -> buil
+d\lib.win-amd64-cpytho
+n-39\greenlet
+  copying src\greenlet
+\TGreenletGlobals.cpp 
+-> build\lib.win-amd64
+-cpython-39\greenlet
+  copying src\greenlet
+\TMainGreenlet.cpp -> 
+build\lib.win-amd64-cp
+ython-39\greenlet
+  copying src\greenlet
+\TPythonState.cpp -> b
+uild\lib.win-amd64-cpy
+thon-39\greenlet
+  copying src\greenlet
+\TStackState.cpp -> bu
+ild\lib.win-amd64-cpyt
+hon-39\greenlet
+  copying src\greenlet
+\TThreadState.hpp -> b
+uild\lib.win-amd64-cpy
+thon-39\greenlet
+  copying src\greenlet
+\TThreadStateCreator.h
+pp -> build\lib.win-am
+d64-cpython-39\greenle
+t
+  copying src\greenlet
+\TThreadStateDestroy.c
+pp -> build\lib.win-am
+d64-cpython-39\greenle
+t
+  copying src\greenlet
+\TUserGreenlet.cpp -> 
+build\lib.win-amd64-cp
+ython-39\greenlet
+  copying src\greenlet
+\greenlet.cpp -> build
+\lib.win-amd64-cpython
+-39\greenlet
+  copying src\greenlet
+\greenlet.h -> build\l
+ib.win-amd64-cpython-3
+9\greenlet
+  copying src\greenlet
+\greenlet_allocator.hp
+p -> build\lib.win-amd
+64-cpython-39\greenlet
+  copying src\greenlet
+\greenlet_compiler_com
+pat.hpp -> build\lib.w
+in-amd64-cpython-39\gr
+eenlet
+  copying src\greenlet
+\greenlet_cpython_comp
+at.hpp -> build\lib.wi
+n-amd64-cpython-39\gre
+enlet
+  copying src\greenlet
+\greenlet_exceptions.h
+pp -> build\lib.win-am
+d64-cpython-39\greenle
+t
+  copying src\greenlet
+\greenlet_internal.hpp
+ -> build\lib.win-amd6
+4-cpython-39\greenlet
+  copying src\greenlet
+\greenlet_msvc_compat.
+hpp -> build\lib.win-a
+md64-cpython-39\greenl
+et
+  copying src\greenlet
+\greenlet_refs.hpp -> 
+build\lib.win-amd64-cp
+ython-39\greenlet
+  copying src\greenlet
+\greenlet_slp_switch.h
+pp -> build\lib.win-am
+d64-cpython-39\greenle
+t
+  copying src\greenlet
+\greenlet_thread_suppo
+rt.hpp -> build\lib.wi
+n-amd64-cpython-39\gre
+enlet
+  copying src\greenlet
+\slp_platformselect.h 
+-> build\lib.win-amd64
+-cpython-39\greenlet
+  copying src\greenlet
+\platform\setup_switch
+_x64_masm.cmd -> build
+\lib.win-amd64-cpython
+-39\greenlet\platform
+  copying src\greenlet
+\platform\switch_aarch
+64_gcc.h -> build\lib.
+win-amd64-cpython-39\g
+reenlet\platform
+  copying src\greenlet
+\platform\switch_alpha
+_unix.h -> build\lib.w
+in-amd64-cpython-39\gr
+eenlet\platform
+  copying src\greenlet
+\platform\switch_amd64
+_unix.h -> build\lib.w
+in-amd64-cpython-39\gr
+eenlet\platform
+  copying src\greenlet
+\platform\switch_arm32
+_gcc.h -> build\lib.wi
+n-amd64-cpython-39\gre
+enlet\platform
+  copying src\greenlet
+\platform\switch_arm32
+_ios.h -> build\lib.wi
+n-amd64-cpython-39\gre
+enlet\platform
+  copying src\greenlet
+\platform\switch_arm64
+_masm.asm -> build\lib
+.win-amd64-cpython-39\
+greenlet\platform
+  copying src\greenlet
+\platform\switch_arm64
+_masm.obj -> build\lib
+.win-amd64-cpython-39\
+greenlet\platform
+  copying src\greenlet
+\platform\switch_arm64
+_msvc.h -> build\lib.w
+in-amd64-cpython-39\gr
+eenlet\platform
+  copying src\greenlet
+\platform\switch_csky_
+gcc.h -> build\lib.win
+-amd64-cpython-39\gree
+nlet\platform
+  copying src\greenlet
+\platform\switch_loong
+arch64_linux.h -> buil
+d\lib.win-amd64-cpytho
+n-39\greenlet\platform
+  copying src\greenlet
+\platform\switch_m68k_
+gcc.h -> build\lib.win
+-amd64-cpython-39\gree
+nlet\platform
+  copying src\greenlet
+\platform\switch_mips_
+unix.h -> build\lib.wi
+n-amd64-cpython-39\gre
+enlet\platform
+  copying src\greenlet
+\platform\switch_ppc64
+_aix.h -> build\lib.wi
+n-amd64-cpython-39\gre
+enlet\platform
+  copying src\greenlet
+\platform\switch_ppc64
+_linux.h -> build\lib.
+win-amd64-cpython-39\g
+reenlet\platform
+  copying src\greenlet
+\platform\switch_ppc_a
+ix.h -> build\lib.win-
+amd64-cpython-39\green
+let\platform
+  copying src\greenlet
+\platform\switch_ppc_l
+inux.h -> build\lib.wi
+n-amd64-cpython-39\gre
+enlet\platform
+  copying src\greenlet
+\platform\switch_ppc_m
+acosx.h -> build\lib.w
+in-amd64-cpython-39\gr
+eenlet\platform
+  copying src\greenlet
+\platform\switch_ppc_u
+nix.h -> build\lib.win
+-amd64-cpython-39\gree
+nlet\platform
+  copying src\greenlet
+\platform\switch_riscv
+_unix.h -> build\lib.w
+in-amd64-cpython-39\gr
+eenlet\platform
+  copying src\greenlet
+\platform\switch_s390_
+unix.h -> build\lib.wi
+n-amd64-cpython-39\gre
+enlet\platform
+  copying src\greenlet
+\platform\switch_sh_gc
+c.h -> build\lib.win-a
+md64-cpython-39\greenl
+et\platform
+  copying src\greenlet
+\platform\switch_sparc
+_sun_gcc.h -> build\li
+b.win-amd64-cpython-39
+\greenlet\platform
+  copying src\greenlet
+\platform\switch_x32_u
+nix.h -> build\lib.win
+-amd64-cpython-39\gree
+nlet\platform
+  copying src\greenlet
+\platform\switch_x64_m
+asm.asm -> build\lib.w
+in-amd64-cpython-39\gr
+eenlet\platform
+  copying src\greenlet
+\platform\switch_x64_m
+asm.obj -> build\lib.w
+in-amd64-cpython-39\gr
+eenlet\platform
+  copying src\greenlet
+\platform\switch_x64_m
+svc.h -> build\lib.win
+-amd64-cpython-39\gree
+nlet\platform
+  copying src\greenlet
+\platform\switch_x86_m
+svc.h -> build\lib.win
+-amd64-cpython-39\gree
+nlet\platform
+  copying src\greenlet
+\platform\switch_x86_u
+nix.h -> build\lib.win
+-amd64-cpython-39\gree
+nlet\platform
+  copying src\greenlet
+\tests\_test_extension
+.c -> build\lib.win-am
+d64-cpython-39\greenle
+t\tests
+  copying src\greenlet
+\tests\_test_extension
+_cpp.cpp -> build\lib.
+win-amd64-cpython-39\g
+reenlet\tests
+  running build_ext
+  building 
+'greenlet._greenlet' 
+extension
+  error: Microsoft 
+Visual C++ 14.0 or 
+greater is required. 
+Get it with 
+"Microsoft C++ Build 
+Tools": https://visual
+studio.microsoft.com/v
+isual-cpp-build-tools/
+  [end of output]
+  
+  note: This error 
+originates from a 
+subprocess, and is 
+likely not a problem 
+with pip.
+  ERROR: Failed 
+building wheel for 
+greenlet
+Failed to build greenlet
+ERROR: Could not 
+build wheels for 
+greenlet, which is 
+required to install 
+pyproject.toml-based 
+projects
+WARNING: You are 
+using pip version 
+22.0.4; however, 
+version 26.0.1 is 
+available.
+You should consider 
+upgrading via the 'C:\
+Users\sachd\AppData\Lo
+cal\Programs\Python\Py
+thon39\python.exe -m 
+pip install --upgrade 
+pip' command.
